@@ -30,14 +30,27 @@ function findById(id: string, list: ContentItem[]): ContentItem | null {
 function loadScreenshots(contentId: string): string[] {
     try {
         const dir = path.join(process.cwd(), "public", "content", contentId, "screenshot");
-        if (!fs.existsSync(dir)) return [];
-        const files = fs.readdirSync(dir, {withFileTypes: true});
-        const imageNames = files
-            .filter((e) => e.isFile())
-            .map((e) => e.name)
-            .filter((n) => /\.(png|jpg|jpeg|gif|webp)$/i.test(n))
-            .sort();
-        return imageNames.map((n) => `/content/${contentId}/screenshot/${n}`);
+        const list: string[] = [];
+
+        if (fs.existsSync(dir)) {
+            const files = fs.readdirSync(dir, { withFileTypes: true });
+            const imageNames = files
+                .filter((e) => e.isFile())
+                .map((e) => e.name)
+                .filter((n) => /\.(png|jpg|jpeg|gif|webp)$/i.test(n))
+                .sort();
+            list.push(...imageNames.map((n) => `/content/${contentId}/screenshot/${n}`));
+        }
+
+        // Ensure background image appears as the first screenshot if available
+        const bgFile = path.join(process.cwd(), "public", "content", contentId, "background.jpg");
+        if (fs.existsSync(bgFile)) {
+            const bgUrl = `/content/${contentId}/background.jpg`;
+            const withoutDup = list.filter((u) => u !== bgUrl);
+            return [bgUrl, ...withoutDup];
+        }
+
+        return list;
     } catch {
         return [];
     }
