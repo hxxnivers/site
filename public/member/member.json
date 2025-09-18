@@ -1,0 +1,76 @@
+[
+  {
+    "name": "호백",
+    "role": "대표",
+    "mcNickname": "hobaek119",
+    "intro": "후니버스의 기획과 운영을 총괄하는 대표로, 팀원들이 최고의 실력을 발휘할 수 있도록 이끌고 있습니다. 팀의 방향성과 콘텐츠의 완성도를 위해 꾸준히 아이디어를 제안하며, 방송 활동을 통해 유저들과 활발히 소통합니다.",
+    "portfolio": "",
+    "comment": "대한민국 장군산 애기 백호랭이",
+    "links": {
+      "email": "hobaek119@gmail.com",
+      "chzzk": "https://chzzk.naver.com/da504b5309f9b4eee7e9022690e215d1"
+    }
+  },
+  {
+    "name": "동훈",
+    "role": "플러그인",
+    "mcNickname": "_donghune",
+    "intro": "후니버스의 메인 플러그인 개발자로 대부분의 컨텐츠를 담당하고 제작하였습니다.\n실제 현업 개발 경험을 바탕으로 최상의 퀄리티를 제공하고자 노력합니다.",
+    "portfolio": "",
+    "comment": "하루 개발시간 총 18시간",
+    "links": {
+      "email": "reona7140@naver.com",
+      "github": "https://github.com/donghune"
+    }
+  },
+  {
+    "name": "레시스",
+    "role": "모델링 / Mythicmobs",
+    "mcNickname": "Leshis",
+    "intro": "게임 내 3D 모델링과 Mythicmobs를 이용한 몬스터 및 스킬 제작을 담당합니다. 컨텐츠의 재미를 높이는 데 기여합니다.",
+    "portfolio": "",
+    "comment": "방가방가 하이루",
+    "links": {
+      "discord": "Leshis#6517"
+    }
+  },
+  {
+    "name": "풉키",
+    "role": "인프라",
+    "mcNickname": "poopki",
+    "intro": "안정적인 서버 환경과 인프라 구축을 담당하며, 플레이어들이 쾌적하게 게임을 즐길 수 있도록 서버 최적화와 보안을 유지합니다.",
+    "portfolio": "",
+    "comment": "개발 호소인",
+    "links": {}
+  },
+  {
+    "name": "흑별",
+    "role": "건축",
+    "mcNickname": "yikarus",
+    "intro": "서버의 분위기와 세계관을 살리는 건축물을 디자인하고 제작합니다. 세밀한 디테일과 미학적인 감각으로 독창적인 공간을 완성합니다.",
+    "portfolio": "",
+    "comment": "",
+    "links": {}
+  },
+  {
+    "name": "새롱초",
+    "role": "플러그인",
+    "mcNickname": "_INFP",
+    "intro": "게임 내 편의성과 재미를 높이는 다양한 기능을 구현하는 플러그인 개발자입니다. 유저 피드백을 반영해 지속적으로 개선합니다.",
+    "portfolio": "",
+    "comment": "마크계의 노예",
+    "links": {
+      "email": "fatalciro01@naver.com",
+      "github": "https://github.com/DevSaerongcho"
+    }
+  },
+  {
+    "name": "수정",
+    "role": "기획",
+    "mcNickname": "Su_jeong_i",
+    "intro": "군 복무",
+    "portfolio": "",
+    "comment": "충성",
+    "links": {}
+  }
+]
